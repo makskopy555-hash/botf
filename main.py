@@ -21,7 +21,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 # НАСТРОЙКИ
 # ─────────────────────────────────────────────
 
-TOKEN = os.getenv("BOT_TOKEN")  # токен НОВОГО бота от @BotFather (Railway -> Variables)
+TOKEN = "8624909808:AAFpgTkXdGBTYhkKbbn-DQfZgj2hFZippcE"  # токен НОВОГО бота от @BotFather (Railway -> Variables)
 if not TOKEN:
     raise SystemExit("Задайте переменную окружения BOT_TOKEN (токен бота от @BotFather)")
 
