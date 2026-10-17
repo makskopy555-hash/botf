@@ -21,7 +21,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 # НАСТРОЙКИ
 # ─────────────────────────────────────────────
 
-TOKEN = os.getenv ("8624909808:AAGtF-pSUSRXhwwz2P0mlw0hZq_XtgLBnyg")
+TOKEN = "8624909808:AAGtF-pSUSRXhwwz2P0mlw0hZq_XtgLBnyg"
 if not TOKEN:
     raise SystemExit("Задайте переменную окружения BOT_TOKEN (токен бота от @BotFather)")
 
